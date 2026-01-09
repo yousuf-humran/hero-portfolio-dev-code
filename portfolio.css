@@ -194,3 +194,65 @@ nav .nav-links a {
     line-height: 28px;
 }
 
+/*----- Resume Section -----*/
+
+#resume {
+    padding: 130px 230px;
+    text-align: center; 
+}
+
+#resume .resume-heading h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 113px;
+    color: #474747;
+}
+
+.resume-container {
+    display: flex;
+    gap: 71px; 
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.education, .experience {
+    flex: 1; 
+}
+
+.resume-container h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-container h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-container h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-container p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.resume-container hr {
+    border: 0;
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+
+#resume .button {
+    margin-top: 50px;
+}
