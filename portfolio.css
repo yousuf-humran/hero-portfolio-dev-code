@@ -102,3 +102,41 @@ nav .nav-links a {
     vertical-align: middle;
 }
 
+/* ----- About Section ----- */
+#about {
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+    margin: 130px 230px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+#about .about-me-text h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+
+#about .about-me-text p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px
+}
+
+#about .about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 19px;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+}
+
+#about .about-me-container p {
+    color: #757575;
+}
+
