@@ -24,6 +24,17 @@
     color: #FD6E0A;
 }
 
+.button-contact {
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border: 3px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 16px 33px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .button {
     background-color: #FD6E0A;
     color: white;
@@ -34,7 +45,7 @@
     font-weight: bold;
     cursor: pointer;
 }
-.button:hover {
+.button:hover, .button-contact:hover {
     background-color: #000000;
     color: white;
 }
@@ -108,6 +119,11 @@ nav .nav-links a:hover { /*nav hover*/
     width: 585px;
     height: 676px;
     vertical-align: middle;
+}
+
+.banner-content .banner-buttons {
+    display: flex;
+    gap: 30px;
 }
 
 /* ----- About Section ----- */
