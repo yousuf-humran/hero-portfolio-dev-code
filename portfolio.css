@@ -194,7 +194,7 @@ nav .nav-links a {
     line-height: 28px;
 }
 
-/*----- Resume Section -----*/
+/*-------- Resume Section --------*/
 
 #resume {
     padding: 130px 230px;
@@ -208,7 +208,7 @@ nav .nav-links a {
     color: #000000;
 }
 
-.resume-container {
+#resume .resume-container {
     display: flex;
     gap: 71px; 
     text-align: left;
@@ -255,4 +255,51 @@ nav .nav-links a {
 
 #resume .button {
     margin-top: 50px;
+}
+
+/*----------footer section----------*/
+
+
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container {
+    display: flex;
+    gap: 116px;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-container .social {
+    max-width: 562px;
+}
+
+.footer-container .social p {
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a {
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575
 }
