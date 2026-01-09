@@ -141,25 +141,25 @@ nav .nav-links a {
 }
 
 /* ----- What I Do Section ----- */
-.what-i-do-text {
+#skills .what-i-do-text {
     max-width: 800px;
     margin: 0 auto 50px;
     text-align: center;
 }
 
-.what-i-do-text h1 {
+#skills .what-i-do-text h1 {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 30px;
 }
 
-.what-i-do-text p {
+#skills .what-i-do-text p {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
 }
 
-.skills-container {
+#skills .skills-container {
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
@@ -168,7 +168,7 @@ nav .nav-links a {
     justify-content: center;
 }
 
-.skills-container div {
+#skills .skills-container div {
     width: 260px;
     padding: 30px;
     background: #ffffff;
@@ -177,19 +177,20 @@ nav .nav-links a {
     text-align: left;
 }
 
-.skills-container img {
+#skills .skills-container img {
     width: 44px;
     margin-bottom: 30px;
     border-radius: 5px;
 }
 
-.skills-container h3 {
+#skills.skills-container h3 {
     font-size: 20px;
     margin-bottom: 15px;
 }
 
-.skills-container p {
+#skills .skills-container p {
     font-size: 16px;
     color: #757575;
     line-height: 28px;
 }
+
