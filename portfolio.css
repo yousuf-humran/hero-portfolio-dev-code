@@ -34,6 +34,10 @@
     font-weight: bold;
     cursor: pointer;
 }
+.button:hover {
+    background-color: #000000;
+    color: white;
+}
 
 /*----------main section----------*/
 
@@ -41,7 +45,7 @@ header {
     background-color: #FFF8F3;
     padding-top: 50px;
     background-image: url("images/developer.png"), url("images/header_bg.png");
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
 }
 
@@ -63,8 +67,12 @@ nav .nav-links {
 
 nav .nav-links a {
     text-decoration: none;
-    color: #474747;
+    color: #000000;
     font-size: 20px;
+}
+
+nav .nav-links a:hover { /*nav hover*/
+    color: #FD6E0A;
 }
 
 #banner {
